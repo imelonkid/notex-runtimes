@@ -39,13 +39,13 @@ jobs:
           key: runtimes-${{ matrix.arch }}-${{ hashFiles('build-*.sh', 'lib.sh', 'python-sci/requirements.txt') }}
 
       - name: 构建完整 Python 科学计算环境
-        run: ./build-python.sh
+        run: bash ./build-python.sh
 
       - name: 构建 Java 运行时
-        run: ./build-java.sh
+        run: bash ./build-java.sh
 
       - name: 构建 Node.js 运行时
-        run: ./build-node.sh
+        run: bash ./build-node.sh
 
       - name: 上传当前架构的构建产物
         uses: actions/upload-artifact@v4
@@ -127,7 +127,7 @@ jobs:
           if [[ -n "$OSS_BUCKET" ]]; then
             curl -fsSL https://gosspublic.alicdn.com/ossutil/install.sh | sudo bash
           fi
-          ./publish.sh
+          bash ./publish.sh
 
       - name: 把正式清单写回仓库
         if: ${{ inputs.publish }}
