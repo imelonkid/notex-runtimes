@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-09-11T15:34:32.651Z",
+  "generated": "2026-09-11T16:00:19.306Z",
   "runtimes": [
     {
       "id": "java-jdk",
@@ -20,19 +20,19 @@
         {
           "platform": "darwin",
           "arch": "arm64",
-          "size": 50735353,
-          "sha256": "1c73ec272c22e649442c9df38d772d731c1ed7d9f84c43a6128cef6ea2606da6",
+          "size": 50735297,
+          "sha256": "dc59dfa9f72e09114bb55f2bb848b5704a8a7e0e64d4023d36832633c7e048c0",
           "urls": [
-            "https://github.com/imelonkid/notex/releases/download/v1/java-jdk-17.0.20.1-1-darwin-arm64.tar.gz"
+            "https://github.com/imelonkid/notex-runtimes/releases/download/v1/java-jdk-17.0.20.1-1-darwin-arm64.tar.gz"
           ]
         },
         {
           "platform": "darwin",
           "arch": "x64",
-          "size": 51788288,
-          "sha256": "371fb7155496bac6ce0f141e2c10b8463302cefa1529daae2dd8bc28cb9af7e9",
+          "size": 51788332,
+          "sha256": "a9fb407c26bd65fedd2a779298eb8e79a32fb2d8c7b24ffae535d9c9d09a5c96",
           "urls": [
-            "https://github.com/imelonkid/notex/releases/download/v1/java-jdk-17.0.20.1-1-darwin-x64.tar.gz"
+            "https://github.com/imelonkid/notex-runtimes/releases/download/v1/java-jdk-17.0.20.1-1-darwin-x64.tar.gz"
           ]
         }
       ]
@@ -52,19 +52,19 @@
         {
           "platform": "darwin",
           "arch": "arm64",
-          "size": 32501345,
-          "sha256": "53a05da85c7032e87d5588e89f1765ce0f53703b86c2a01e2661dfabf0231d2f",
+          "size": 32501334,
+          "sha256": "dffaf0514ae0917b3ae4dd846b4dd4d1bd7d343fc90da5dab3ee80a158e7d2fa",
           "urls": [
-            "https://github.com/imelonkid/notex/releases/download/v1/js-node-20.20.2-1-darwin-arm64.tar.gz"
+            "https://github.com/imelonkid/notex-runtimes/releases/download/v1/js-node-20.20.2-1-darwin-arm64.tar.gz"
           ]
         },
         {
           "platform": "darwin",
           "arch": "x64",
-          "size": 33800568,
-          "sha256": "f78e7e5619794c57125e366309f0cc20982a00827c1427546db25695cc240ad8",
+          "size": 33800575,
+          "sha256": "284947a24742ab6583d19f1d641533b13ab0aff7616264e1f2b4913d96db96a3",
           "urls": [
-            "https://github.com/imelonkid/notex/releases/download/v1/js-node-20.20.2-1-darwin-x64.tar.gz"
+            "https://github.com/imelonkid/notex-runtimes/releases/download/v1/js-node-20.20.2-1-darwin-x64.tar.gz"
           ]
         }
       ]
@@ -89,19 +89,19 @@
         {
           "platform": "darwin",
           "arch": "arm64",
-          "size": 85011249,
-          "sha256": "d9c9548e5d20b144d9bb7659a993258e147ffbc7aa282019834f3a667f4f2b0f",
+          "size": 85011543,
+          "sha256": "b3bf485921aa947506239a3e4a44de71852aa52dd35c5657248263c1834cf7f8",
           "urls": [
-            "https://github.com/imelonkid/notex/releases/download/v1/python-sci-3.12.14-1-darwin-arm64.tar.gz"
+            "https://github.com/imelonkid/notex-runtimes/releases/download/v1/python-sci-3.12.14-1-darwin-arm64.tar.gz"
           ]
         },
         {
           "platform": "darwin",
           "arch": "x64",
-          "size": 90120767,
-          "sha256": "328c65b0258bafeb5adf2551c2d9fafcff76b1d0955909ee99b76b0657ca9ff7",
+          "size": 90120203,
+          "sha256": "5ab19d9fa46fbd028f8f6157a01b8dc9d77741cc0eb15eacb09e6272dbd1eeb4",
           "urls": [
-            "https://github.com/imelonkid/notex/releases/download/v1/python-sci-3.12.14-1-darwin-x64.tar.gz"
+            "https://github.com/imelonkid/notex-runtimes/releases/download/v1/python-sci-3.12.14-1-darwin-x64.tar.gz"
           ]
         }
       ]
